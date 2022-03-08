@@ -1,0 +1,39 @@
+$text-color: #6a6a77;
+$margin-hieght: 45%;
+$padding-tags: 40px;
+$padding-btn: 24%;
+$botton-color: #000;
+.index {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    
+    .selectMode {
+        margin: $margin-hieght 0;
+        box-sizing: border-box;
+        padding: 0 $padding-btn;
+        .at-button {
+            background: {
+                color: $botton-color;
+            }
+            border: {
+                color: $botton-color;
+            };
+        }
+    }
+    
+    .tags {
+        box-sizing: border-box;
+        padding: 0 $padding-tags;
+        .tags-items {
+            padding: $padding-tags 0;
+            text {
+                color: $text-color;
+            }
+        }
+
+        .at-tag {
+            margin-right: $padding-tags;
+        }
+    }
+}
