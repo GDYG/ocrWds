@@ -21,11 +21,11 @@ export const chooseMedia = (callback) => {
       },
       fail(err) {
         console.log(err)
-        Taro.showToast({
-            title: TOASTTEXT,
-            icon: 'error',
-            duration: 2000,
-        })
+        // Taro.showToast({
+        //     title: TOASTTEXT,
+        //     icon: 'error',
+        //     duration: 2000,
+        // })
       }
     })
 }

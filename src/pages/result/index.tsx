@@ -1,4 +1,4 @@
-import { View } from "@tarojs/components";
+import { View, Text } from "@tarojs/components";
 import { Component } from "react";
 import { inject, observer } from 'mobx-react'
 import OcrStore from "src/store/ocrStore";
@@ -27,7 +27,7 @@ class Result extends Component<IndexPropsType> {
             <View className='res-cont'>
                 {
                     WORDSOCR.map(item => {
-                        return <View key={item} className='at-article__p'>{ item }</View>
+                        return <Text selectable={true} userSelect={true} key={item} className='at-article__p'>{ item }</Text>
                     })
                 }
                 {

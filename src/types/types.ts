@@ -3,6 +3,7 @@ export enum TextType {
     OcrText = 2,
     ImageType = 3,
     NotWords = 4,
+    TIPS = 5,
 }
 
 export interface URLParamType {

@@ -45,6 +45,7 @@ class Index extends Component<IndexPropsType> {
         </AtNoticebar>
         <View className='selectMode'>
           <AtButton type='primary' onClick={this.selectMedia} circle>{ TextWords.get(TextType.OcrText) }</AtButton>
+          <View className='tips'>{ TextWords.get(TextType.TIPS) }</View>
         </View>
         <View className='tags'>
           <View className='tags-items'><Text>{ TextWords.get(TextType.ImageType) }</Text></View>

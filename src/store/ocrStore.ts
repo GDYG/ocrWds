@@ -5,10 +5,11 @@ import {TextType, ReponseOcrResultData} from '../types/types'
 class OcrStore {
 
     TextWords = new Map([
-        [TextType.AtNoticebar, 'OCR-WDS文字识别为方便ANDROID用户提供在线识别支持, OCR-WDS文字识别调用的百度AI-OCR文字识别'],
+        [TextType.AtNoticebar, '🎉OCR-WDS文字识别为方便手机端用户提供在线识别支持, OCR-WDS文字识别调用的百度AI-OCR文字识别'],
         [TextType.OcrText, '文字识别'],
         [TextType.ImageType, '支持的图片格式'],
         [TextType.NotWords, '图片中貌似没有文字哦😯'],
+        [TextType.TIPS, '🌈注: 识别结果页长按可以进行文本复制']
     ])
 
     resetData = () => {

@@ -12,6 +12,7 @@ $botton-color: #000;
         margin: $margin-hieght 0;
         box-sizing: border-box;
         padding: 0 $padding-btn;
+        text-align: center;
         .at-button {
             background: {
                 color: $botton-color;
@@ -19,6 +20,11 @@ $botton-color: #000;
             border: {
                 color: $botton-color;
             };
+        }
+        .tips {
+            font-size: 20px;
+            color: $text-color;
+            margin-top: 20px;
         }
     }
     
