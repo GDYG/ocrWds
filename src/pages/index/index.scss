@@ -1,5 +1,5 @@
 $text-color: #6a6a77;
-$margin-hieght: 45%;
+$margin-hieght: 40%;
 $padding-tags: 40px;
 $padding-btn: 24%;
 $botton-color: #000;
@@ -13,6 +13,26 @@ $botton-color: #000;
         box-sizing: border-box;
         padding: 0 $padding-btn;
         text-align: center;
+        .at-input {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 12px;
+            .at-input__container {
+                border: 1px solid $botton-color;
+                border-radius: 46px;
+                .at-button {
+                    margin-bottom: 0;
+                    border-bottom-left-radius: 0;
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 46px;
+                    border-bottom-right-radius: 46px;
+                    .at-button__text {
+                        color: #fff;
+                    }
+                }
+            }
+        }
         .at-button {
             background: {
                 color: $botton-color;
@@ -20,6 +40,9 @@ $botton-color: #000;
             border: {
                 color: $botton-color;
             };
+            &:first-child {
+                margin-bottom: 12px;
+            }
         }
         .tips {
             font-size: 20px;

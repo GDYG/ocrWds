@@ -4,7 +4,7 @@
   "description": "ocr文字识别",
   "appid": "wx732ed9f5feb21d6c",
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": false,
     "enhance": false,
     "postcss": false,

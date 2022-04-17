@@ -4,6 +4,8 @@ export enum TextType {
     ImageType = 3,
     NotWords = 4,
     TIPS = 5,
+    SHARE = 6,
+    Done = 7,
 }
 
 export interface URLParamType {

@@ -28,7 +28,14 @@ class Client {
           success (res){
               callback(res)
           }
-        })
+        }).catch(err => Taro.hideLoading())
+    }
+  
+    urlUploadInterface = (url: string, imgUrl: string) => { 
+      return Taro.request({
+        url: BASEURL + url + `?url=${imgUrl}`, //仅为示例，非真实的接口地址
+        method: 'GET'
+      })
     }
 }
 
